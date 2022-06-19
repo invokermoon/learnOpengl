@@ -30,8 +30,8 @@ add_executable(rectangle ${SOURCE_FILES3})
 set(SOURCE_FILES4 tex_box.cpp ./glad/src/glad.c)
 add_executable(box ${SOURCE_FILES4})
 
-set(SOURCE_FILES5 tex_face.cpp ./glad/src/glad.c)
-add_executable(tex ${SOURCE_FILES5})
+set(SOURCE_FILES5 face_tex.cpp ./glad/src/glad.c)
+add_executable(facebox ${SOURCE_FILES5})
 
 
 if (APPLE)
